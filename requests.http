@@ -1,0 +1,17 @@
+###Basic Liquidity Ratio
+GET http://localhost:3000/basicLiquidityRatio?monetaryAssets=123&monthlyExpenses=23
+
+###Break Even Point
+GET http://localhost:3000/breakEvenPoint?fixedExpenses=123&grossProfitMarginInPercentage=24
+
+### Cash Flow
+GET http://localhost:3000/cashFlow?income=12540&expenses=2445
+
+### Compound Interest
+GET http://localhost:3000/compoundInterest?principal=12540&rateBasisPoints=245&periodsPerYear=4&years=10
+
+### Rule of 72
+GET http://localhost:3000/ruleOf72?compoundInterestRate=1.54
+
+### Net Income
+GET http://localhost:3000/netIncome?income=109265&expenses=2412
